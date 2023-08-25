@@ -1,2 +1,3 @@
-# landingPageProject
-A landing page created as part of The Odin Project
+# A Landing Page
+A landing page created as part of The Odin Project.
+
