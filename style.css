@@ -32,8 +32,7 @@ ul {
     background: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 24px 15%;
 }
 
 .footer {
@@ -49,6 +48,9 @@ ul {
 
 .header-links {
     display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .top-panel {
