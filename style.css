@@ -127,9 +127,9 @@ h3 {
 }
 
  .card-image {
-    border-color: #3882f6;
     border-radius: 8px;
-    border-width: 2px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
     display: flex;
     max-width: 200px;
     min-width: 0;
