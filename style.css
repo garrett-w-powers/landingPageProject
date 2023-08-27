@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,400&display=swap');
 
 body {
     height: 100vh;
@@ -112,21 +112,36 @@ h3 {
 
 .card-container {
     display: flex;
-    flex: auto;
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
 }
 
 .card {
-    flex: 1;
+    flex: auto;
     display: flex;
     flex-direction:column;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
 }
 
  .card-image {
     border-color: #3882f6;
+    border-radius: 8px;
+    border-width: 2px;
+    display: flex;
+    max-width: 200px;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
 }
 
 .card-image img {
-    flex: auto;
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
 }
 
 .action-card {
@@ -151,4 +166,20 @@ h3 {
 
 .footer {
     justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 15%;
+}
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote h2 {
+    margin: 0;
 }
