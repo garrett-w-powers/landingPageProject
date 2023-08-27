@@ -27,7 +27,8 @@ ul {
     padding: 0;
 }
 
-.header {
+.header,
+.footer {
     color: white;
     background: #1f2937;
     display: flex;
@@ -118,9 +119,6 @@ h1 {
 
  .card-image {
     border-color: #3882f6;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
 }
 
 .card-image img {
@@ -143,4 +141,8 @@ h1 {
 
 .action-text {
     flex: 1;
+}
+
+.footer {
+    justify-content: center;
 }
